@@ -1,0 +1,53 @@
+.dialog-znajomy {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    margin-bottom: 2px;
+    width: 100%;
+    background-color: white;
+    border-top: lightgrey 1px solid;
+}
+
+.dialog-znajomy2 {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    margin-bottom: 2px;
+    width: 100%;
+    background-color: white;
+}
+
+.dialog-znajomy-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.dialog-znajomy-nadawca {
+
+}
+
+.dialog-znajomy-wiadomosc {
+    width: 100%;
+    margin-top: 8px;
+}
+
+.dialog-znajomy-buttons {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+
+.dialog-znajomy-przycisk {
+    background-color: white;
+    margin-right: 13px;
+    border-radius: 17px;
+    padding: 7px;
+    width: 150px;
+    border: 1px solid darkgray;
+}
+
+.dialog-znajomy-przycisk:hover {
+    cursor: pointer;
+    background-color: rgb(227, 227, 227);
+}

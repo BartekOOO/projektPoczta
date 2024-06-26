@@ -1,0 +1,11 @@
+.odpisywanie{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.tekstarela2, .tekstarela2:focus, .tekstarela2:active{
+    border: 1px solid lightgray;
+    resize: none;
+    outline: none;
+}

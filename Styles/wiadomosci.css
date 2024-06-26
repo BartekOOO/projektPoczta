@@ -1,0 +1,71 @@
+.wiadomosc,.wiadomoscZgloszenia{
+    display: flex;
+    padding: 8px;
+    clear: both;
+    margin: 0px;
+    width: 100%;
+    background-color: white;
+    border: white 1px solid; 
+}
+
+.wiadomosc:hover,.wiadomoscZgloszenia:hover{
+    cursor: pointer;
+    box-shadow: 2px 4px 3px #88888888;
+    border: 1px #d5dbe2 solid;
+}
+
+
+.opcje{
+    display: flex;
+    background-color: white;
+    padding: 12px;
+    margin-bottom: 2px;
+}
+
+.kwadracik, .gwiazdka, .tytul, .kawalek, .data{
+    float: left;
+}
+
+.kwadracik{
+    margin-right: 6px;
+    border: 2px solid #88888888;
+    cursor: pointer;
+    width: 2%;
+}
+
+.gwiazdka{
+    width: 5%;
+    margin-right: 15px;
+}
+
+
+.tytul{
+    width: 15%;
+    margin-right: 15px;
+}
+
+.nadawca{
+    width: 18%;
+    margin-right: 15px;
+}
+
+.kawalek{
+    width: 41%;
+    margin-right: 10px;
+}
+
+#main{
+    margin: 0px;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}

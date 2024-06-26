@@ -1,0 +1,56 @@
+.dialog {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    margin-bottom: 2px;
+    width: 100%;
+    background-color: white;
+    border-top: lightgrey 1px solid;
+}
+
+.dialog-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.dialog-nadawca {
+
+}
+
+.dialog-data {
+
+}
+
+.dialog-wiadomosc {
+    width: 100%;
+    margin-top: 8px;
+}
+
+.dialog-przycisk{
+    background-color: white;
+    margin-right: 13px;
+    border-radius: 17px;
+    padding: 7px;
+    width: 150px;
+    border:1px solid darkgray;
+}
+
+.dialog-przycisk:hover{
+    cursor: pointer;
+    background-color: rgb(227, 227, 227);
+}
+
+.dialog-przycisk2{
+    background-color: white;
+    margin-right: 13px;
+    border-radius: 17px;
+    padding: 7px;
+    width: 250px;
+    border:1px solid darkgray;
+}
+
+.dialog-przycisk2:hover{
+    cursor: pointer;
+    background-color: rgb(227, 227, 227);
+}

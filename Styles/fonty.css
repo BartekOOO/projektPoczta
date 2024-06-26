@@ -1,0 +1,65 @@
+.napis{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 26px;
+}
+
+.napis1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+.napis2{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.napis3{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.napis4{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.gruby{
+    font-weight: bold;
+}
+
+.zielony{
+    color: chartreuse;
+}
+
+.niebieski{
+    color: blue;
+}
+
+.szary{
+    color:#525256;
+}
+
+.cszary{
+    color:#303256;
+}
+
+.czerwony{
+    color: red;
+}
+
+.czarny{
+    color: black;
+}
+
+
+.alignLeft{
+    text-align: left;
+}
+
+.alignRight{
+    text-align: right;
+}
+
+.alignCenter{
+    text-align: center;
+}

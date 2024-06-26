@@ -1,0 +1,22 @@
+RewriteEngine On
+
+RewriteRule ^rejestracja/?$ /rejestracja.php [L]
+
+RewriteRule ^logowanie/?$ /logowanie.php [L]
+
+RewriteRule ^panel/?$ /panel.php [L]
+
+RewriteRule ^konto/?$ /konto.php [L]
+
+RewriteRule ^zmianaHasla/?$ /zmianaHasla.php [L]
+
+RewriteRule ^stronyNieZnaleziono/?$ /stronyNieZnaleziono.php [L]
+
+RewriteRule ^kontoZablokowane/?$ /kontoZablokowane.php [L]
+
+ErrorDocument 404 /stronyNieZnaleziono.php
+
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /stronyNieZnaleziono.php [L]

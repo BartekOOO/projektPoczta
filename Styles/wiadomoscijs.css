@@ -1,0 +1,58 @@
+.wiadomoscjs{
+    display: flex;
+    padding: 8px;
+    clear: both;
+    margin: 0px;
+    width: 100%;
+    background-color: white;
+    border: white 1px solid; 
+    align-items: center;
+}
+
+.wiadomoscjs:hover{
+    cursor: pointer;
+    box-shadow: 2px 4px 3px #88888888;
+    border: 1px #d5dbe2 solid;
+}
+
+.kwadracikjs, .gwiazdkajs, .tytuljs, .kawalekjs, .datajs{
+    float: left;
+}
+
+.kwadracikjs{
+    margin-right: 6px;
+    border: 2px solid #88888888;
+    cursor: pointer;
+    width: 2%;
+}
+
+.gwiazdkajs{
+    width: 5%;
+    margin-right: 15px;
+    cursor: pointer;
+    font-size: 19px;
+    margin-bottom: 5px;
+}
+
+.gwiazdkajs:hover{
+    font-weight: bold;
+}
+
+.gwiazdkajs.pomalowane {
+    color: gold;
+}
+
+.tytuljs{
+    width: 15%;
+    margin-right: 15px;
+}
+
+.nadawcajs{
+    width: 18%;
+    margin-right: 15px;
+}
+
+.kawalekjs{
+    width: 41%;
+    margin-right: 10px;
+}
